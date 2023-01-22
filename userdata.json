@@ -1,3 +1,46 @@
 {
-    ""
+    "users": [
+        {
+            "id": 1,
+            "name": "John Doe",
+            "email": "johndoe@example.com",
+            "username": "admin",
+            "password": "admin123",
+            /*remember to add new lines to fit it in the box*/
+            "journalEntry1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nulla aliquet porttitor lacus luctus accumsan tortor. Porttitor lacus luctus accumsan tortor posuere ac ut.",
+            /*remember to add new lines to fit it in the box*/
+            "journalEntry2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nulla aliquet porttitor lacus luctus accumsan tortor. Porttitor lacus luctus accumsan tortor posuere ac ut.",
+            /*remember to add new lines to fit it in the box*/
+            "journalEntry3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nulla aliquet porttitor lacus luctus accumsan tortor. Porttitor lacus luctus accumsan tortor posuere ac ut.",
+            /*remember to add new lines to fit it in the box*/
+            "journalEntry4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nulla aliquet porttitor lacus luctus accumsan tortor. Porttitor lacus luctus accumsan tortor posuere ac ut.",
+            /*remember to add new lines to fit it in the box*/
+            "journalEntry5": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nulla aliquet porttitor lacus luctus accumsan tortor. Porttitor lacus luctus accumsan tortor posuere ac ut.",
+            /*remember to add new lines to fit it in the box*/
+            "journalEntry6": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nulla aliquet porttitor lacus luctus accumsan tortor. Porttitor lacus luctus accumsan tortor posuere ac ut.",
+            /*remember to add new lines to fit it in the box*/
+            "journalEntry7": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nulla aliquet porttitor lacus luctus accumsan tortor. Porttitor lacus luctus accumsan tortor posuere ac ut."
+        },
+        {
+            "id": 2,
+            "name": "Jane Smith",
+            "email": "janesmith@example.com",
+            "username": "jane23",
+            "password": "admin123",
+            /*remember to add new lines to fit it in the box*/
+            "journalEntry1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nulla aliquet porttitor lacus luctus accumsan tortor. Porttitor lacus luctus accumsan tortor posuere ac ut.",
+            /*remember to add new lines to fit it in the box*/
+            "journalEntry2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nulla aliquet porttitor lacus luctus accumsan tortor. Porttitor lacus luctus accumsan tortor posuere ac ut.",
+            /*remember to add new lines to fit it in the box*/
+            "journalEntry3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nulla aliquet porttitor lacus luctus accumsan tortor. Porttitor lacus luctus accumsan tortor posuere ac ut.",
+            /*remember to add new lines to fit it in the box*/
+            "journalEntry4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nulla aliquet porttitor lacus luctus accumsan tortor. Porttitor lacus luctus accumsan tortor posuere ac ut.",
+            /*remember to add new lines to fit it in the box*/
+            "journalEntry5": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nulla aliquet porttitor lacus luctus accumsan tortor. Porttitor lacus luctus accumsan tortor posuere ac ut.",
+            /*remember to add new lines to fit it in the box*/
+            "journalEntry6": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nulla aliquet porttitor lacus luctus accumsan tortor. Porttitor lacus luctus accumsan tortor posuere ac ut.",
+            /*remember to add new lines to fit it in the box*/
+            "journalEntry7": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim nulla aliquet porttitor lacus luctus accumsan tortor. Porttitor lacus luctus accumsan tortor posuere ac ut."
+        }
+    ]
 }
