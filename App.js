@@ -18,7 +18,9 @@ function MyButton({ onPress }) {
     <TouchableOpacity onPress={onPress}>
       <Image
         source={require('./user.png')}
-        style={{ width: 50, height: 50 }}
+        style={{ width: 50, height: 50, 
+        left: '-300%'}}
+      
       />
     </TouchableOpacity>
   );
@@ -36,6 +38,8 @@ function MainScreen({ route }) {
   );
 }
 
+
+
 function JournalToday({ navigation }) {
   const [text, setText] = useState('');
   
@@ -45,7 +49,7 @@ function JournalToday({ navigation }) {
       
       <View style={styles.header}>
       <View>
-      <MyButton onPress={() => console.log('Button pressed')} />
+      <MyButton onPress={() => navigation.navigate('Details', { text })} />
       </View>  
       </View>
       
@@ -76,6 +80,7 @@ function JournalToday({ navigation }) {
       <Button
         title="done"
         onPress={() => navigation.navigate('Details', { text })}
+        
       />
     </View>
   );
