@@ -5,11 +5,25 @@ import {
   TextInput,
   Button,
   Image,
+  TouchableOpacity,
   StyleSheet,
   ScrollView,
 } from 'react-native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
+
+// 
+function MyButton({ onPress }) {
+  return (
+    <TouchableOpacity onPress={onPress}>
+      <Image
+        source={require('./user.png')}
+        style={{ width: 50, height: 50 }}
+      />
+    </TouchableOpacity>
+  );
+}
+//
 
 function MainScreen({ route }) {
   const { text } = route.params;
@@ -24,18 +38,15 @@ function MainScreen({ route }) {
 
 function JournalToday({ navigation }) {
   const [text, setText] = useState('');
+  
   return (
+    
     <View style={styles.container}>
       
       <View style={styles.header}>
-      <Button
-        title="-"
-        onPress={() => navigation.navigate('Details', { text })}
-      />
-      <Button
-        title="0"
-        onPress={() => navigation.navigate('Details', { text })}
-      />
+      <View>
+      <MyButton onPress={() => console.log('Button pressed')} />
+      </View>  
       </View>
       
       <View style={styles.header}>
@@ -52,7 +63,6 @@ function JournalToday({ navigation }) {
       <Text style={{color: '#514646', fontSize: 18, height: 100}}>
         what are you thinking about today?
       </Text>
-      </View>
 
       <TextInput
         style={styles.textInput}
@@ -61,6 +71,8 @@ function JournalToday({ navigation }) {
         placeholder="Start typing..."
       />
       
+      </View>
+
       <Button
         title="done"
         onPress={() => navigation.navigate('Details', { text })}
@@ -68,7 +80,6 @@ function JournalToday({ navigation }) {
     </View>
   );
 }
-
 
 function DetailsScreen({ route }) {
   const { text } = route.params;
@@ -113,7 +124,7 @@ const styles = StyleSheet.create({
   text: {
     fontSize: 25,
     alignItems: 'center',
-    marginBottom: 20,
+    marginBottom: 2,
     color: '#514646',
   },
   textInput: {
@@ -122,8 +133,8 @@ const styles = StyleSheet.create({
     borderRadius: 50,
     height: 400,
     width: '100%',
-    padding: 10,
+    padding: 8,
     fontSize: 20,
-    marginBottom: 200,
+    marginBottom: 20,
   },
 });
