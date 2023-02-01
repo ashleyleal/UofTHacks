@@ -36,3 +36,5 @@ What's next for Journa:
 We do consider adding new features that would enhance the user experience, such as the ability to set reminders, track progress, or share quotes and journal entries with friends. The app will be regularly updated with new quotes and sayings to keep the content fresh and engaging for users.
 
 It will also allow users to customize the look and feel of the app, or to choose from different themes or color schemes. We may offer premium subscriptions that will give users access to additional features, such as more quotes, more journaling prompts, or personalized feedback from experts.
+
+Demo: https://youtu.be/ZxpiiPy_fbw
