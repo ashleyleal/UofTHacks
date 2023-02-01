@@ -1,5 +1,5 @@
 # journa
-journa is a UofTHacks 2023 submission by Ashley L, Danelle D, Winnie H, and Zuha M.
+journa is a UofTHacks 2023 submission by Ashley L, Danelle D, Winnie H, and Zuha M. The theme was exploration. 
 
 Introducing "journa" - the ultimate tool for self-discovery and personal growth. This innovative app helps you track your mood, set intentions, and journal your thoughts and feelings. With journa, you'll be able to gain a deeper understanding of yourself and your emotions, set and achieve goals, and create positive habits that will last a lifetime.
 
